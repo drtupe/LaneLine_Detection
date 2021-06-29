@@ -24,9 +24,11 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 This is the final result expected as output from from this project.
+
 <img src="examples/sample_examples/laneLines_thirdPass.jpg">
 
 We will be using the following image through the project demonstrating results of various steps.
+
 <img src="test_images/solidYellowCurve.jpg">
 
 ### Color Selection:
@@ -51,6 +53,7 @@ masked_image[mask_color == 0] = [0, 0, 0]
 Once the image has been masked and only yellow and white pixels are available in the image and other colors have been eliminated, this process has now reduced the importance of color in the image. This allows us to convert the image to a grayscale image for easy processing.
 
 Following is the result obtained from color selection:
+
 <img src="examples/color_selection.jpg\">
 
 ### Smoothing Image:
@@ -61,6 +64,7 @@ gray = grayscale(masked_image)
 kernal_size = 5
 blur_gray = gaussian_blur(gray, kernal_size)
 Following is the result obtained from smoothing of gray scale image:
+
 <img src="examples/blur_gray.jpg\">
 
 ### Canny Edge Detection:
@@ -72,6 +76,7 @@ high_threshold = 250
 edges = canny(gray, low_threshold, high_threshold)
 
 Following is the result obtained from Canny Edge Detection:
+
 <img src="examples/canny_edges.jpg\">
 
 ### Region of interest area Selection:
