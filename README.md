@@ -189,7 +189,7 @@ def line_points(y1, y2, line):
     
 Once averaging and extrapolation is done, we get the points where we can draw the lines on image. For easy distinction of left and right lane, I have used different color for both the line to be represented. Following is the final result which we obtained.
 
-<img src="examples/lane_lines/.jpg\">
+<img src="examples/lane_lines.jpg\">
 
 ### Conclusion:
 
