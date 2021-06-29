@@ -24,7 +24,7 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 This is the final result expected as output from from this project.
-<img src="files/examples/sample_examples/laneLines_thirdPass.jpg">
+<img src="examples/sample_examples/laneLines_thirdPass.jpg">
 
 We will be using the following image through the project demonstrating results of various steps.
 <img src="files/test_images/solidYellowCurve.jpg">
