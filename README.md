@@ -1,6 +1,6 @@
 # **Lane Line Detection** 
 
-## **Introduction**
+## **Introduction:**
 ---
 One of the fundamental tasks in computer vision for autonomous driving is lane line detection on road. As this markings were made for humans to see and follow them to maintain driving dicipline, similarly they are been used by autonomous vehicles developed today to drive along side humans. 
 
