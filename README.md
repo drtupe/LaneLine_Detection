@@ -17,7 +17,7 @@ Finally, I complied all these techniques into a pipeline to process a video clip
 
 ---
 
-**Finding Lane Lines on the Road**
+**Finding Lane Lines on the Road:**
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
